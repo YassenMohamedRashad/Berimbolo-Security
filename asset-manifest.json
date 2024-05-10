@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/Berimbolo-Security/static/css/main.e6c13ad2.css",
-    "main.js": "/Berimbolo-Security/static/js/main.c67be12a.js",
+    "main.js": "/Berimbolo-Security/static/js/main.d21fda81.js",
     "static/js/453.e02fa7a3.chunk.js": "/Berimbolo-Security/static/js/453.e02fa7a3.chunk.js",
     "static/media/hero.png": "/Berimbolo-Security/static/media/hero.8c12f5470581d12ff6a0.png",
     "static/media/secure.jpg": "/Berimbolo-Security/static/media/secure.d115625b16a911ad655c.jpg",
+    "static/media/woman.jpg": "/Berimbolo-Security/static/media/woman.c6f7d839b5b36a8e1514.jpg",
+    "static/media/man2.jpg": "/Berimbolo-Security/static/media/man2.2a812c474a16e1194dab.jpg",
+    "static/media/man.jpg": "/Berimbolo-Security/static/media/man.9054e2e6ee7284151d0e.jpg",
     "index.html": "/Berimbolo-Security/index.html",
     "main.e6c13ad2.css.map": "/Berimbolo-Security/static/css/main.e6c13ad2.css.map",
-    "main.c67be12a.js.map": "/Berimbolo-Security/static/js/main.c67be12a.js.map",
+    "main.d21fda81.js.map": "/Berimbolo-Security/static/js/main.d21fda81.js.map",
     "453.e02fa7a3.chunk.js.map": "/Berimbolo-Security/static/js/453.e02fa7a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c67be12a.js"
+    "static/js/main.d21fda81.js"
   ]
 }
