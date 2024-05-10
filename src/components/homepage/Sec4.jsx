@@ -1,23 +1,28 @@
 import React from 'react';
 import { Colors } from '../utils/Colors';
+import man1 from "../../images/man.jpg"
+import man2 from "../../images/man2.jpg"
+import woman from "../../images/woman.jpg"
+import SectionTitle from '../utils/SectionTitle';
 
 function Sec4 ()
 {
     return (
         <>
             {/* Container for demo purpose */ }
-            <div data-aos="fade-right" className="p-10 my-10 text-white animate__animated animate__fadeInUp " style={{backgroundColor:Colors.dark_color}}>
+            <div data-aos="fade-right" data-aos-duration="300" className="p-10 my-10 text-white animate__animated animate__fadeInUp " style={{backgroundColor:Colors.dark_color}}>
+                <SectionTitle title="What they said about us" dark/>
                 <section className="text-center" >
-                    <h2 className="mb-12 text-3xl font-extrabold">What they said about us</h2>
+                    
                     <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-                        <div className="mb-12 md:mb-0">
+                        <div data-aos="fade-right" data-aos-duration="300" className="mb-12 md:mb-0">
                             <div className="mb-6 flex justify-center">
                                 <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+                                    src={ man1 }
                                     className="w-32 rounded-full shadow-lg dark:shadow-black/20"
                                 />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
+                            <h5 className="mb-2 text-lg font-bold">Saber shawky</h5>
                             <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
                                 Web Developer
                             </h6>
@@ -98,10 +103,11 @@ function Sec4 ()
                                 </li>
                             </ul>
                         </div>
-                        <div className="mb-12 md:mb-0">
+
+                        <div data-aos="fade-right" data-aos-duration="800" className="mb-12 md:mb-0">
                             <div className="mb-6 flex justify-center">
                                 <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+                                    src={woman}
                                     className="w-32 rounded-full shadow-lg dark:shadow-black/20"
                                 />
                             </div>
@@ -186,10 +192,11 @@ function Sec4 ()
                                 </li>
                             </ul>
                         </div>
-                        <div className="mb-0">
+
+                        <div data-aos="fade-right" data-aos-duration="1300" className="mb-0">
                             <div className="mb-6 flex justify-center">
                                 <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+                                    src={man2}
                                     className="w-32 rounded-full shadow-lg dark:shadow-black/20"
                                 />
                             </div>

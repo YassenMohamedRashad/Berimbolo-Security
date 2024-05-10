@@ -1,25 +1,79 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Colors } from '../utils/Colors';
+import SectionTitle from '../utils/SectionTitle';
 
 function Sec5 ()
 {
+    const [ email, setEmail ] = useState( '' );
+    const [ message, setMessage ] = useState( '' );
+    const [ emailError, setEmailError ] = useState( '' );
+    const [ messageError, setMessageError ] = useState( '' );
+
+    const handleSubmit = ( e ) =>
+    {
+        e.preventDefault();
+
+        // Email validation regex pattern
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Validate email
+        if ( !email || !emailPattern.test( email ) )
+        {
+            setEmailError( 'Please enter a valid email address' );
+            return;
+        } else
+        {
+            setEmailError( '' );
+        }
+
+        // Validate message
+        if ( !message.trim() )
+        {
+            setMessageError( 'Please enter a message' );
+            return;
+        } else
+        {
+            setMessageError( '' );
+        }
+
+        // Form is valid, proceed with submission
+        console.log( 'Form submitted:', { email, message } );
+
+        // Reset form fields
+        setEmail( '' );
+        setMessage( '' );
+    };
     return (
         <div data-aos="fade-left" id='contact' className='animate__animated animate__fadeInUp'>
+            <SectionTitle title="Contact Us"/>
             {/* Container for demo purpose */ }
             <div className="p-10">
                 {/* Section: Design Block */ }
                 <section className="">
-                    <div className="flex justify-center">
-                        <div className="text-center md:max-w-xl lg:max-w-3xl">
-                            <h2 className="mb-12 px-6 text-3xl">Contact us</h2>
-                        </div>
-                    </div>
                     <div className="flex flex-wrap">
                         <div className=" w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6   rounded-lg">
-                            <form>
-                                <input type="email" placeholder='email' className='block w-full text-lg p-2 my-5 border rounded-lg border-gray-500' />
-                                <input type="text" placeholder='message' className='block w-full text-lg p-2 my-5 border rounded-lg border-gray-500' />
-                                <input type="submit" value="submit" placeholder='message' className='bg-blue-800 text-white focus:outline-none focus:ring-4 rounded px-5 py-2.5 text-center me-2 mb-2' />
+                            <form onSubmit={ handleSubmit }>
+                                <input
+                                    type="email"
+                                    placeholder='Email'
+                                    className='block w-full text-lg p-2 mt-5 border rounded-lg border-gray-500'
+                                    value={ email }
+                                    onChange={ ( e ) => setEmail( e.target.value ) }
+                                />
+                                { emailError && <p className="text-red-500">{ emailError }</p> }
+                                <input
+                                    type="text"
+                                    placeholder='Message'
+                                    className='block w-full text-lg p-2 mt-5 border rounded-lg border-gray-500'
+                                    value={ message }
+                                    onChange={ ( e ) => setMessage( e.target.value ) }
+                                />
+                                { messageError && <p className="text-red-500">{ messageError }</p> }
+                                <input
+                                    type="submit"
+                                    value="Submit"
+                                    className='bg-blue-800 mt-5 text-white focus:outline-none focus:ring-4 rounded px-5 py-2.5 text-center me-2 mb-2'
+                                />
                             </form>
                         </div>
                         <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">

@@ -1,66 +1,53 @@
 import React from 'react';
+import SectionTitle from "../utils/SectionTitle";
 import { Colors } from '../utils/Colors';
 
 function Sec2 ()
 {
     return (
-        <div data-aos="fade-right" id='services' className='animate__animated animate__fadeInUp'>
-            {/* Container for demo purpose */ }
-            <div className="p-10 text-white" style={ { backgroundColor: Colors.dark_color } } >
-                {/* Section: Design Block */ }
-                <section>
-                    <div className="flex flex-wrap">
-                        <div className="w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
-                            <p className="font-bold uppercase">
-                                Services
-                            </p>
-                            <h2 className="mb-4 text-3xl font-bold">
-                                What are we doing ?
-                            </h2>
-                            <p className="mb-12  text-gray-400">
-                                Berimbolo Security sell and install security systems for homes and small businesses.
-                            </p>
-                        </div>
-                        <div className="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12 grid lg:grid-cols-2">
-                                    <div className="flex mb-30">
-                                        <div className="shrink-0">
-                                            <i class="bi bi-arrow-right-circle-fill text-xl"></i>
-                                        </div>
-                                        <div className="ml-4 grow">
-                                            <p className="mb-3 font-bold">Security risk assessments</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex mb-30">
-                                        <div className="shrink-0">
-                                            <i class="bi bi-arrow-right-circle-fill text-xl"></i>
-                                        </div>
-                                        <div className="ml-4 grow">
-                                    <p className="mb-3 font-bold">Sale and installation of security systems (alarms and CCTV)</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex mb-30">
-                                        <div className="shrink-0">
-                                            <i class="bi bi-arrow-right-circle-fill text-xl"></i>
-                                        </div>
-                                        <div className="ml-4 grow">
-                                        <p className="mb-3 font-bold">Security system maintenance</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex mb-30">
-                                        <div className="shrink-0">
-                                            <i class="bi bi-arrow-right-circle-fill text-xl"></i>
-                                        </div>
-                                        <div className="ml-4 grow">
-                                    <p className="mb-3 font-bold">24/7 monitoring of: <br/>Alarm systems - CCTV footage</p>
-                                        </div>
-                                    </div>
+        <section className='my-20' data-aos="fade-left" data-aos-duration="200">
+            <SectionTitle title="Our Services" />
+            <div className="grid md:grid-cols-4 max-w-screen-lg mx-auto gap-5 mt-16 px-5">
+
+                <div data-aos="fade-left" data-aos-duration="300" className="flex gap-4 place-content-center  flex-col text-center border-2 rounded-2xl hover:bg-indigo-600 transition hover:text-white">
+                    <div className='p-10'>
+                        <i class="bi bi-file-earmark-lock text-3xl mb-5"></i>
+                        <div className='mt-3'>
+                            <h3 className="font-semibold text-xl">Security risk assessments</h3>
                         </div>
                     </div>
-                </section>
-                {/* Section: Design Block */ }
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="900" className="flex gap-4 place-content-center  flex-col text-center border-2 rounded-2xl hover:bg-indigo-600 transition hover:text-white">
+                    <div className='p-5'>
+                        <i class="bi bi-camera-video text-3xl mb-5"></i>
+                        <div className='mt-3'>
+                            <h3 className="font-semibold text-xl">Sale and installation of security systems (alarms and CCTV)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="1600" className="flex gap-4 place-content-center  flex-col text-center border-2 rounded-2xl hover:bg-indigo-600 transition hover:text-white">
+                    <div className='p-5'>
+                        <i class="bi bi-shield-check text-3xl mb-5"></i>
+                        <div className='mt-3'>
+                            <h3 className="font-semibold text-xl">Security system maintenance</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="2500" className="flex gap-4 place-content-center  flex-col text-center border-2 rounded-2xl hover:bg-indigo-600 transition hover:text-white">
+                    <div className='p-5'>
+                            <i class="bi bi-building text-3xl mb-5"></i>
+                        <div className='mt-3'>
+                            <h3 className="font-semibold text-xl">24/7 monitoring of:Alarm systems and CCTV footage</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            {/* Container for demo purpose */ }
-        </div>
+        </section>
+
 
     );
 }

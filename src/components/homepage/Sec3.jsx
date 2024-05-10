@@ -10,7 +10,7 @@ function Sec3 ()
             <div class="container px-5 mx-auto">
                 <SectionTitle title="Pricing"/>
                 <div class="flex flex-wrap -m-4">
-                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="300" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Basic</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -51,7 +51,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="800" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
                             <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Standard</h2>
@@ -100,7 +100,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1300" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Deluxe</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -148,7 +148,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1800" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Custom</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
