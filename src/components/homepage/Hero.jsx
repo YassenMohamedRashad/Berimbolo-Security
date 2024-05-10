@@ -25,7 +25,7 @@ return (
                             </h1>
                             <Main_btn text="Let's Start" href="/" StyleClass="p-10"/>
                         </div>
-                        <div className="hidden lg:block">
+                        <div data-aos="flip-up" className="hidden lg:block">
                             <img
                                 src={ heroImage }
                                 className="w-[60%] ms-auto"

@@ -4,7 +4,7 @@ import { Colors } from '../utils/Colors';
 function Sec5 ()
 {
     return (
-        <div id='contact' className='animate__animated animate__fadeInUp'>
+        <div data-aos="fade-left" id='contact' className='animate__animated animate__fadeInUp'>
             {/* Container for demo purpose */ }
             <div className="p-10">
                 {/* Section: Design Block */ }

@@ -1,17 +1,16 @@
 import React from 'react';
 import { Colors } from '../utils/Colors';
 import Main_btn from '../utils/Main_btn';
+import SectionTitle from '../utils/SectionTitle';
 
 function Sec3 ()
 {
     return (
-        <section class="text-gray-600 body-font overflow-hidden animate__animated animate__fadeInUp" id='pricing'>
+        <section data-aos="fade-up" class="text-gray-600 body-font overflow-hidden animate__animated animate__fadeInUp" id='pricing'>
             <div class="container px-5 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
-                </div>
+                <SectionTitle title="Pricing"/>
                 <div class="flex flex-wrap -m-4">
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Basic</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -52,7 +51,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
                             <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Standard</h2>
@@ -101,7 +100,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Deluxe</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -149,7 +148,7 @@ function Sec3 ()
                     </div>
 
 
-                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Custom</h2>
                             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">

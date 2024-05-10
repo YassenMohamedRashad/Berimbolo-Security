@@ -6,7 +6,7 @@ function Sec4 ()
     return (
         <>
             {/* Container for demo purpose */ }
-            <div className="p-10 my-10 text-white animate__animated animate__fadeInUp " style={{backgroundColor:Colors.dark_color}}>
+            <div data-aos="fade-right" className="p-10 my-10 text-white animate__animated animate__fadeInUp " style={{backgroundColor:Colors.dark_color}}>
                 <section className="text-center" >
                     <h2 className="mb-12 text-3xl font-extrabold">What they said about us</h2>
                     <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">

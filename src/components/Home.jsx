@@ -13,7 +13,6 @@ function Home ()
     <>
       <Hero />
       <Sec2 />
-      <Sec1 />
       <Sec3 />
       <Sec4 />
       <Sec5 />
