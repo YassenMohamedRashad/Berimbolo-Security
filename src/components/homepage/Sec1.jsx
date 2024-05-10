@@ -5,7 +5,7 @@ function Sec1() {
   return (
     <>
       {/* Container for demo purpose */ }
-      <div className="container mt-10 mx-auto md:px-6" id='about'>
+      <div className="container mt-10 mx-auto md:px-6 animate__animated animate__fadeInUp" id='about'>
         {/* Section: Design Block */ }
         <section className="mb-32 text-center">
           <h2 className="mb-16 text-4xl font-extrabold">

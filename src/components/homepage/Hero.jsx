@@ -7,7 +7,7 @@ function Hero ()
 return (
     <>
         {/* Section: Design Block */ }
-        <section className="background-radial-gradient p-10">
+        <section className="background-radial-gradient p-10 animate__animated animate__fadeInUp">
             <style
                 dangerouslySetInnerHTML={ {
                     __html:

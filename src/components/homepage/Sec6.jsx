@@ -4,7 +4,7 @@ import image from "../../images/home/secure.jpg"
 function Sec6 ()
 {
     return (
-        <section className="text-gray-600 body-font my-10 p-5">
+        <section className="text-gray-600 body-font my-10 p-5 animate__animated animate__fadeInUp">
             <div class="flex flex-col text-center w-full">
                 <h1 class="sm:text-4xl text-3xl font-medium title-font mb-10 text-gray-900">Some Advices</h1>
             </div>

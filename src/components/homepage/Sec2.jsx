@@ -4,7 +4,7 @@ import { Colors } from '../utils/Colors';
 function Sec2 ()
 {
     return (
-        <div id='services'>
+        <div id='services' className='animate__animated animate__fadeInUp'>
             {/* Container for demo purpose */ }
             <div className="p-10 text-white" style={ { backgroundColor: Colors.dark_color } } >
                 {/* Section: Design Block */ }

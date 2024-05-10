@@ -5,7 +5,7 @@ import Main_btn from '../utils/Main_btn';
 function Sec3 ()
 {
     return (
-        <section class="text-gray-600 body-font overflow-hidden" id='pricing'>
+        <section class="text-gray-600 body-font overflow-hidden animate__animated animate__fadeInUp" id='pricing'>
             <div class="container px-5 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
