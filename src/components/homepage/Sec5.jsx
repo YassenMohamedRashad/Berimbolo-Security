@@ -51,12 +51,12 @@ function Sec5 ()
                 {/* Section: Design Block */ }
                 <section className="">
                     <div className="flex flex-wrap">
-                        <div className=" w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6   rounded-lg">
+                        <div className=" w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6 rounded-lg">
                             <form onSubmit={ handleSubmit }>
                                 <input
                                     type="email"
                                     placeholder='Email'
-                                    className='block w-full text-lg p-2 mt-5 border rounded-lg border-gray-500'
+                                    className='block w-full text-lg p-2 border rounded-lg border-gray-500'
                                     value={ email }
                                     onChange={ ( e ) => setEmail( e.target.value ) }
                                 />
@@ -72,7 +72,7 @@ function Sec5 ()
                                 <input
                                     type="submit"
                                     value="Submit"
-                                    className='bg-blue-800 mt-5 text-white focus:outline-none focus:ring-4 rounded px-5 py-2.5 text-center me-2 mb-2'
+                                    className={`bg-[${Colors.light_color}] hover:bg-[${Colors.dark_color}] transition mt-5 text-white focus:outline-none focus:ring-4 rounded px-5 py-2.5 text-center me-2 mb-2`}
                                 />
                             </form>
                         </div>
